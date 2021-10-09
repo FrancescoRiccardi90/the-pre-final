@@ -36,7 +36,7 @@ Create these basic pages
 
 - Homepage
 - Signup & Login page(s)
-- Protected user area page with contents
+- Protected user content page
 
 Backend: 
 - Setup schemas for users and the content 
@@ -95,8 +95,7 @@ Explore how you can exchange messages between users using so called "Server-Sent
 - SSE - how to listen for an event stream: https://www.voorhoede.nl/en/blog/real-time-communication-with-server-sent-events/
 - Example with React: https://auth0.com/blog/developing-real-time-web-applications-with-server-sent-events/
 
-Find a full demo with code for React and Express here:
-- [https://github.com/losrobbos/chat-react-sse](https://github.com/losrobbos/chat-react-sse)
+Find a full demo with code for React and Express here: [https://github.com/losrobbos/chat-react-sse](https://github.com/losrobbos/chat-react-sse)
 
 Hint: You do not need to store the chat messages in the backend. You can just forward (=broadcast) incoming messages to all other participants.
 
